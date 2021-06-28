@@ -1,0 +1,23 @@
+@forward '../abstracts/fonts' ;
+@forward '../abstracts/colors';
+
+
+// in this _index.scss file we are having all scss files of same folder then forward them as above 
+
+// we can receive all files of folder as 
+// @use './abstracts' as *;
+// and use as below 
+
+
+// @use './abstracts' as *;
+
+// .App {
+//   color: $red;
+//   font-size: $font-size;
+// }
+
+
+
+
+// video tutorial
+// https://youtu.be/CR-a8upNjJ0
