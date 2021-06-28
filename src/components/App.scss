@@ -1,10 +1,15 @@
-$text-color: #222222;
+@use './abstracts/' as *;
+
+
+
+// $text-color: #222222;
 
 
 .App {
-  margin: 1rem;
   font-family: Arial, Helvetica, Sans-serif;
-  color: $text-color;
+  color: $red;
+  font-size: $font-size;
+
   
 } 
 
